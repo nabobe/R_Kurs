@@ -26,3 +26,4 @@ plotMeans(Hühnersub$weight,Hühnersub$diet,error.bars=c("conf.int"), level=.95,
 Ergebnis<-aov(Hühner$weight~Hühner$diet*age + Error(id/age),data=Hühner)
 
 interaction.plot(Hühner$age,Hühner$diet,Hühner$weight)
+d
